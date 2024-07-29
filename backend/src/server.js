@@ -1,5 +1,5 @@
 
-const app = require('./app.js');
+const app = require('./app');
 
 //process.env
 // injetar variáveis do env neste ambiente

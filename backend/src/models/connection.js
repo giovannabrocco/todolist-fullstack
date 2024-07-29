@@ -5,6 +5,8 @@
 const mysql = require('mysql2/promise');
 // utilizar versão mais moderna
 
+require('dotenv').config();
+
 // vai criar uma lista de conexões, vão ser inseridas alguma configurações
 const connection = mysql.createPool({
     host: process.env.MYSQL_HOST,

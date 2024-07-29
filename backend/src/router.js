@@ -5,7 +5,7 @@ const router = express.Router ();
 //Ele tem sua própria estrutura de rotas.
 //Isto é útil para manter o código limpo e organizado
 
-router.get('./tasks', tasksController.getAll);
+router.get('/tasks', tasksController.getAll);
 // para melhorar organização, deixei as funções em controllers
 
 module.exports = router;
